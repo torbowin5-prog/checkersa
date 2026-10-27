@@ -1,0 +1,17 @@
+{
+  "name": "bromelo-x-rayan4ik-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  },
+  "dependencies": {
+    "@satorufx/mediadownloader": "^1.1.0"
+  }
+}
